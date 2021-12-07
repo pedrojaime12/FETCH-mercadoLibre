@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+    margin: 0;
+    font-size: 16px;
+}
+.header{
+    background-color:#FFF159 ;
+    padding: 12px 0;
+}
+.header-content{
+    max-width: 510px;
+    margin: 0 auto;
+}
+.search-form{
+    display: flex;
+
+}
+.search-input{
+    flex-grow: 1;
+    margin-right: 14px;
+
+}
+.search-boton{
+    padding: 12px 35px;
+
+}
+.content{
+    max-width: 510px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-bottom: 16px;
+    padding: 13px;
+    
+}
+.resultados{
+    font-size: 16px;
+}
+
+.result-item{
+    margin-bottom: 15px;
+    padding: 13px;
+    border: solid 1px ;
+    border-radius: 4px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+
+}
+.result-item-content{
+    flex-grow: 1;
+    
+}
+.result-item-title{
+    font-family: "Roboto";
+    font-style: "Bold";
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0;
+}
+.result-item-condition{
+    margin-top: 4px;
+    
+}
+.result-item-sellers{
+    margin-top: 44px;
+
+}
+.result-item-im{
+    width: 130px;
+   max-height: 130px;
+   align-items: center;
+}
+.result-item-price{
+    Font-style: Bold;
+    Font-size: 28px;
+    color: #5791A4;
+    padding: 0px 15px
+}
